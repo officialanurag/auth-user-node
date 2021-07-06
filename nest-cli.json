@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "userdb": {
+      "type": "library",
+      "root": "libs/userdb",
+      "entryFile": "index",
+      "sourceRoot": "libs/userdb/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/userdb/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
